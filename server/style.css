@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('minecraft-bg.jpg'); /* Фон Minecraft */
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.main-header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.main-header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.main-header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.main-footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 2px solid #4CAF50;
+    margin-top: 20px;
+    font-size: 14px;
+}

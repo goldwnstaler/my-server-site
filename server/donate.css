@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('minecraft-bg.jpg'); /* Фон Minecraft */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.donation-buttons button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.donation-buttons button:hover {
+    background-color: #45a049;
+}
